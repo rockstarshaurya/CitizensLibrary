@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "citizens.library"
-version = "1.0.1"
+version = "1.0.2"
 
 // ⬇️ This fakes the 'assemble' task so JitPack doesn't fail
 tasks.register("assemble") {
