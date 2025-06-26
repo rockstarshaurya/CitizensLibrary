@@ -14,7 +14,7 @@ tasks.register("assemble") {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            artifact("maven/citizens/library/1.0.2/citizenslibrary-1.0.3.aar") {
+            artifact("maven/citizens/library/1.0.4/citizenslibrary-1.0.4.aar") {
                 extension = "aar"
             }
         }
