@@ -2,8 +2,15 @@ plugins {
     `maven-publish`
 }
 
-group = "citizens.library" // Your chosen group
-version = "1.0.1"          // Your new version
+group = "citizens.library"
+version = "1.0.1"
+
+// ⬇️ This fakes the 'assemble' task so JitPack doesn't fail
+tasks.register("assemble") {
+    doLast {
+        println("No real assemble needed. This is a prebuilt AAR.")
+    }
+}
 
 publishing {
     publications {
