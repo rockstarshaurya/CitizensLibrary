@@ -3,9 +3,8 @@ plugins {
 }
 
 group = "citizens.library"
-version = "1.0.2"
+version = "1.0.3"
 
-// ⬇️ This fakes the 'assemble' task so JitPack doesn't fail
 tasks.register("assemble") {
     doLast {
         println("No real assemble needed. This is a prebuilt AAR.")
@@ -15,7 +14,7 @@ tasks.register("assemble") {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            artifact("maven/citizens/library/1.0.1/citizenslibrary-1.0.1.aar") {
+            artifact("maven/citizens/library/1.0.2/citizenslibrary-1.0.3.aar") {
                 extension = "aar"
             }
         }
