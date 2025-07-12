@@ -1,3 +1,12 @@
+## 📖 Documentation by Feature
+
+- 🔗 [Authentication Features](docs/authentication/README.md)
+- 🔗 [UI Components](docs/ui/README.md)
+- 🔗 [Networking Tools](docs/networking/README.md)
+- 🔗 [Database Utilities](docs/database/README.md)
+- 🔗 [Animations & Transitions](docs/animations/README.md)
+- 🔗 [Utilities](docs/utilities/README.md)
+
 # CitizensLibrary 📦
 
 A secure Android library delivered as a prebuilt `.aar`, hosted via [JitPack](https://jitpack.io).  
