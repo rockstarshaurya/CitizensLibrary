@@ -1,3 +1,7 @@
+## 📖 Documentation by Feature
+
+- 🔗 [Status Bar Features](docs/StatusBar/README.md)
+
 # CitizensLibrary 📦
 
 A secure Android library delivered as a prebuilt `.aar`, hosted via [JitPack](https://jitpack.io).  
@@ -25,12 +29,15 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+````
 
 2️⃣ Add the Library in your Module's build.gradle.kts
 
+```kotlin
 dependencies {
     implementation("com.github.rockstarshaurya:CitizensLibrary:1.0.4")
 }
+````
 
 📦 Features
 
@@ -42,7 +49,8 @@ Hosted on GitHub + JitPack
 🔄 Version History
 
 ✅ 1.0.4 – Current stable release
-🔜 Future: 1.0.5 with improvements
+✅ 1.0.5 – Current stable release with Ui features
+🔜 Future: 1.0.6 with improvements
 
 🧑‍💻 Author
 

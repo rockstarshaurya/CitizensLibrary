@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "citizens.library"
-version = "1.0.3"
+version = "1.0.35"
 
 tasks.register("assemble") {
     doLast {
@@ -14,7 +14,7 @@ tasks.register("assemble") {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            artifact("maven/citizens/library/1.0.4/citizenslibrary-1.0.4.aar") {
+            artifact("maven/citizens/library/1.0.5/citizenslibrary-1.0.5.aar") {
                 extension = "aar"
             }
         }
