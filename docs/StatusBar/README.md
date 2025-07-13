@@ -16,7 +16,3 @@ StatusBar.showStatusBar(this)
     StatusBar.setStatusBarColor(this, resources.getColor(R.color.white), true)
     StatusBar.setStatusBarColor(this, resources.getColor(R.color.black), false)
 ````
-
-```kotlin
-
-````
