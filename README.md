@@ -2,6 +2,8 @@
 
 - 🔗 [Status Bar Features](docs/StatusBar/README.md)
 
+- 🔗 [Views Features](docs/Views/README.md)
+
 # CitizensLibrary 📦
 
 A secure Android library delivered as a prebuilt `.aar`, hosted via [JitPack](https://jitpack.io).  

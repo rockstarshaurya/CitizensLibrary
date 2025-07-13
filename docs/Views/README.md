@@ -1,4 +1,4 @@
-"""
+
 # 🧱 CitizensLibrary - `ContainerView`
 
 A custom Android view based on `LinearLayout` that allows you to:
@@ -116,4 +116,4 @@ Made by [@rockstarshaurya](https://github.com/rockstarshaurya)
 This library is released as a compiled `.aar`.  
 🛡️ **Source code is not visible or included**.  
 ✅ Free to use in your apps.
-"""
+
